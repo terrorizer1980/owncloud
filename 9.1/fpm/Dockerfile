@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM php:7.0-fpm
+FROM php:7.4.20-fpm
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		bzip2 \
